@@ -18,7 +18,10 @@ body {
     position: relative;
     align-items: center;
     margin: 10px auto;
-    background: url("1.jpg") center/cover no-repeat;
+    background: url("1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: white;
     height: 90vh;
     width: 70vw;
